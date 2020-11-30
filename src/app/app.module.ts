@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { laPopularComponent } from './beer-list/laPopular.component';
 import { LaPopularBeersComponent } from './la-popular-beers/la-popular-beers.component';
+import { LaPopularAboutComponent } from './la-popular-about/la-popular-about.component';
 import { CartComponent } from './cart/cart.component';
 
 import { FormsModule } from '@angular/forms';
@@ -16,6 +17,7 @@ import { InputIntegerComponent } from './input-integer/input-integer.component'
     AppComponent,
     laPopularComponent,
     LaPopularBeersComponent,
+    LaPopularAboutComponent,
     CartComponent,
     InputIntegerComponent
   ],
